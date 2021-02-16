@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 ThemeData theme() {
   return ThemeData(
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: kBackgroundColor,
     fontFamily: "Mali",
     appBarTheme: appBarTheme(),
     primaryColor: kPrimaryColor,
@@ -17,12 +17,12 @@ AppBarTheme appBarTheme() {
   return AppBarTheme(
     color: kPrimaryColor,
     elevation: 0,
-    brightness: Brightness.dark,
+    brightness: Brightness.light,
     centerTitle: true,
-    iconTheme: IconThemeData(color: Colors.white),
+    iconTheme: IconThemeData(color: Colors.black),
     textTheme: TextTheme(
       headline6: TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: 20,
         fontWeight: FontWeight.w700,
       ),

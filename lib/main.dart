@@ -1,4 +1,5 @@
-import 'package:budget_tracker/screens/home_page.dart';
+import 'package:budget_tracker/pages/signin/sign_in_screen.dart';
+import 'package:budget_tracker/routes.dart';
 import 'package:budget_tracker/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -10,10 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Budget tracker',
       debugShowCheckedModeBanner: false,
       theme: theme(),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      initialRoute: SignInScreen.routeName,
+      routes: routes,
     );
   }
 }
