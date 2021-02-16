@@ -29,9 +29,10 @@ class CustomAppbar extends StatelessWidget with PreferredSizeWidget {
             Text(
               "Budget tracker",
               style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: "Mali"),
+                fontSize: 18,
+                fontFamily: "Mali",
+                fontStyle: FontStyle.italic,
+              ),
             ),
             Spacer(),
             FlatButton(
