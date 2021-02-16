@@ -5,27 +5,17 @@ ThemeData theme() {
   return ThemeData(
     scaffoldBackgroundColor: kBackgroundColor,
     fontFamily: "Itim",
-    appBarTheme: appBarTheme(),
+    appBarTheme: AppBarTheme(
+      color: kPrimaryColor,
+      elevation: 0,
+      centerTitle: true,
+      brightness: Brightness.dark,
+    ),
     primaryColor: kPrimaryColor,
     accentColor: kPrimaryColor,
     canvasColor: Colors.transparent,
+    splashColor: Colors.transparent,
+    highlightColor: Colors.transparent,
     visualDensity: VisualDensity.adaptivePlatformDensity,
-  );
-}
-
-AppBarTheme appBarTheme() {
-  return AppBarTheme(
-    color: kPrimaryColor,
-    elevation: 0,
-    brightness: Brightness.light,
-    centerTitle: true,
-    iconTheme: IconThemeData(color: Colors.black),
-    textTheme: TextTheme(
-      headline6: TextStyle(
-        color: Colors.black,
-        fontSize: 20,
-        fontWeight: FontWeight.w700,
-      ),
-    ),
   );
 }
