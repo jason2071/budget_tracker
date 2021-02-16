@@ -13,6 +13,7 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
+      height: double.infinity,
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 30),
         child: SingleChildScrollView(
@@ -41,7 +42,6 @@ class Body extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 22,
-                  fontWeight: FontWeight.w600,
                 ),
                 decoration: InputDecoration(
                   floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -49,10 +49,9 @@ class Body extends StatelessWidget {
                   hintStyle: TextStyle(
                     color: Colors.black12,
                     fontSize: 22,
-                    fontWeight: FontWeight.w600,
                   ),
                   labelText: "Email",
-                  labelStyle: TextStyle(fontSize: 16),
+                  labelStyle: TextStyle(fontSize: 20),
                 ),
               ),
               SizedBox(height: 20),
@@ -74,7 +73,7 @@ class Body extends StatelessWidget {
                           fontSize: 22,
                         ),
                         labelText: "Password",
-                        labelStyle: TextStyle(fontSize: 16),
+                        labelStyle: TextStyle(fontSize: 20),
                       ),
                     ),
                   ),
@@ -95,9 +94,9 @@ class Body extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: 50),
-              Center(child: Text("or", style: TextStyle(fontSize: 16))),
-              SizedBox(height: 50),
+              SizedBox(height: 40),
+              Center(child: Text("or", style: TextStyle(fontSize: 18))),
+              SizedBox(height: 40),
               Container(
                 height: 50,
                 padding: EdgeInsets.symmetric(horizontal: 20),
@@ -133,10 +132,7 @@ class Body extends StatelessWidget {
               Center(
                 child: Text(
                   "Forgot Password?",
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
-                  ),
+                  style: TextStyle(fontSize: 16),
                 ),
               ),
             ],
