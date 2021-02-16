@@ -41,7 +41,7 @@ class CustomAppbar extends StatelessWidget with PreferredSizeWidget {
                 buttonText,
                 style: TextStyle(
                   color: kPrimaryColor,
-                  fontSize: 13,
+                  fontSize: 15,
                 ),
               ),
             )
