@@ -16,7 +16,7 @@ class CustomAppbar extends StatelessWidget with PreferredSizeWidget {
     return SizedBox(
       width: double.infinity,
       child: Container(
-        margin: EdgeInsets.only(top: 40, left: 10, right: 10),
+        margin: EdgeInsets.only(top: 45, left: 10, right: 10),
         padding: EdgeInsets.only(left: 16),
         height: double.infinity,
         decoration: BoxDecoration(
@@ -29,9 +29,9 @@ class CustomAppbar extends StatelessWidget with PreferredSizeWidget {
             Text(
               "Budget tracker",
               style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w500,
-              ),
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
+                  fontFamily: "Mali"),
             ),
             Spacer(),
             FlatButton(

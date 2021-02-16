@@ -64,20 +64,13 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
+    - family: Itim
+      fonts:
+        - asset: assets/fonts/Itim-Regular.ttf
     - family: Mali
       fonts:
-        - asset: assets/fonts/Mali-Regular.ttf
         - asset: assets/fonts/Mali-Light.ttf
           weight: 300
-        - asset: assets/fonts/Mali-SemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/Mali-Bold.ttf
-          weight: 700
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
